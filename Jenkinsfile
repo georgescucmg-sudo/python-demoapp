@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Python_check') {
             steps {
-                sh 'python --version'
+                sh 'python3 --version'
             }
         }
 
